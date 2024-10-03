@@ -1,6 +1,6 @@
 package com.example.dynamicui.models
 
-data class RegistrationFormResponse(
+data class ComponentApiResponse(
     val statusCode: String,
     val statusMessage: String,
     val components: List<Component>
